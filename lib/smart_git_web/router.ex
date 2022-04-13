@@ -1,7 +1,6 @@
 defmodule SmartGitWeb.Router do
   use SmartGitWeb, :router
 
-
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
